@@ -1,0 +1,122 @@
+.features {
+    padding: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-poppins);
+}
+.features span {
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 229%;
+    letter-spacing: 0.135em;
+    color: var(--color-orange);
+}
+.features h1 {
+    font-family: var(--font-playfair);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 70px;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--color-text-dark);
+    width: 40%;
+}
+.features-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}
+.feature-card {
+    font-family: var(--font-playfair);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 1rem;
+}
+.feature-card h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 60px;
+    color: var(--color-orange);
+}
+.feature-card h5 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 229%;
+    color: var(--color-text-dark);
+}
+.feature-card p {
+    width: 70%;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 30px;
+    text-align: center;
+    color: var(--color-text-dark);
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 1000px) {
+   .features {
+        padding: 2rem;
+    }
+    .features h1 {
+        width: 100%;
+        margin-bottom: 6rem;
+    }
+    .features-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 6rem;
+    }
+    .feature-card img {
+        width: 40%;
+        height: 40%;
+    }
+    .feature-card h5 {
+        font-size: 2rem;
+    }
+    .feature-card p {
+        width: 50%;
+        font-size: 1.5rem;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .features {
+         padding: 6rem;
+    }
+    .feature-card h5 {
+        font-size: 1.5rem;
+    }
+    .feature-card p {
+        width: 80%;
+        font-size: 1.3rem;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .features {
+        padding: 2rem;
+    }
+    .features h1 {
+        font-size: 2rem;
+        line-height: 50px;
+        margin-bottom: 3rem;
+    }
+    .features-container {
+        gap: 3rem;
+    }
+    .feature-card h5, .feature-card p {
+        font-size: 1.1rem;
+    }
+    .feature-card p {
+        line-height: 25px;
+    }
+}

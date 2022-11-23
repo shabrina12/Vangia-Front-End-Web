@@ -1,0 +1,124 @@
+header {
+    background-color: var(--color-header);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.header {
+    padding: 0 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.header-text {
+    flex: 1; 
+    margin-top: 5rem;
+    font-family: var(--font-poppins);
+}
+.header-text span, .header-text button {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.header-text span {
+    letter-spacing: 0.135em;
+    color: var(--color-orange);
+}
+.header-text button {
+    padding: 1rem 2rem;
+    background-color: var(--color-text-dark);
+    line-height: 30px;
+    color: white;
+    cursor: pointer;
+}
+.header-text h1, .header-text h1 span {
+    font-family: var(--font-playfair);
+    font-weight: 400;
+    font-size: 6rem;
+}
+.header-text h1 {
+    color: var(--color-text-dark);
+    margin-top: 0.5rem;
+}
+.header-text h1 span {
+    color: var(--color-orange);
+    letter-spacing: 0;
+    word-spacing: 0;
+}
+.header-text p {
+    font-family: var(--font-poppins);
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 229%;
+    color: var(--color-text-dark);
+    margin: 3rem 0;
+}
+.header-img {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.header-img img {
+    width: 100%;
+    height: auto;
+}
+.header-img-bottom img {
+    width: auto;
+    height: 150px;
+    top: -90px;
+    right: -250px;
+    position: relative;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .header-text h1, .header-text h1 span {
+        font-size: 4rem;
+    }
+    .header-text {
+        margin-top: 2rem;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .header {
+        flex-direction: column-reverse;
+        justify-content: center;
+        gap: 0;
+    }
+}    
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 0 6rem;
+    }
+    .header-img-bottom img {
+        height: 100px;
+        top: -80px;
+        right: -170px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        padding: 0 2rem;
+    }
+    .header-text h1, .header-text h1 span {
+        font-size: 2.5rem;
+    }
+    .header-img-bottom img {
+        top: -50px;
+        right: -100px;
+    }
+    .header-text p {
+        font-size: 0.9rem;
+        margin: 2rem 0;
+    }
+    .header-text button {
+        padding: 0.5rem 2rem;
+        font-size: 0.9rem;
+    }
+}    

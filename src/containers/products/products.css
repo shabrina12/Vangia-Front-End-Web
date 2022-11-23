@@ -1,0 +1,135 @@
+.products {
+    padding: 8rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-poppins);
+}
+.products h1 {
+    font-family: var(--font-playfair);
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 80px;
+    margin-bottom: 1.5rem;
+    color: var(--color-text-dark);
+}
+.products ul {
+    gap: 2rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+}
+.products li {
+    list-style: none;
+    cursor: pointer;
+}
+.products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.product-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+.product-card-img {
+    width: 100%;
+    height: 70%;
+}
+.product-card-img img {
+    width: 100%;
+    height: 100%;
+}
+.product-card h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 54px;
+    color: black;
+}
+.product-card p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 25px;
+    color: var(--color-gray);
+}
+.product-card h4 {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 229%;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-orange);
+}
+.product-card button {
+    cursor: pointer;
+    padding: 1rem 4.5rem;
+    background-color: white;
+    font-family: var(--font-poppins);
+}
+.seeMore {
+    cursor: pointer;
+    color: white;
+    padding: 1rem 4rem;
+    margin-top: 6rem;
+    background-color: black;
+    font-family: var(--font-poppins);
+}
+
+@media screen and (max-width: 1300px) {
+    .product-card button {
+        padding: 1rem 3rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .products-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+    .product-card {
+        padding: 0;
+        margin-bottom: 4rem;
+    }
+    .product-card-img {
+        height: 60%;
+    }
+    .seeMore {
+        padding: 1rem 6rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .products {
+        padding: 0;
+    }
+    .products h1 {
+        font-size: 2rem;
+        line-height: 40px;
+        text-align: center;
+    }
+    .products ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2rem;
+    }
+    .products-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+    .product-card-img, .product-card p {
+        width: 70%;
+    }
+    .seeMore {
+        font-size: 1.1rem;
+        margin: 4rem 0;
+    }
+}

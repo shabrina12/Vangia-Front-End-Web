@@ -1,0 +1,103 @@
+.newsletter {
+    background-color: white;
+    margin: 0 8rem;
+    padding: 5rem 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-poppins);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    bottom: -80px;
+    z-index: 2;
+}
+.text-container, .input-container {
+    flex: 1;
+}
+.text-container h1 {
+    font-family: var(--font-playfair);
+    margin-bottom: 1rem;
+}
+.text-container p {
+    color: var(--color-gray);
+}
+.input-container {
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.input-container input {
+    width: 60%;
+    height: auto;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 28px;
+    color: var(--color-gray);
+    padding-left: 1rem;
+    border: 1px solid var(--color-gray);
+}
+.input-container button {
+    background-color: var(--color-orange);
+    padding: 1.2rem 2.5rem;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .newsletter {
+        margin: 0 2rem;
+        padding: 4rem 0;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .input-container {
+        width: 80%;
+        gap: 1rem;
+    }
+    .input-container input, .input-container button {
+        font-size: 1.2rem;
+        line-height: 20px;
+    }
+    .input-container input {
+        width: 70%;
+        padding: 1rem 0 1rem 1rem;
+    }
+    .input-container button {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .input-container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .newsletter {
+        padding: 2.5rem;
+    }
+    .text-container {
+        text-align: center;
+    }
+    .input-container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .input-container input, .input-container button {
+        font-size: 1rem;
+    }
+    .input-container input {
+        width: 100%;
+        padding: 1rem 0;
+    }
+}
