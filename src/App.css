@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
 }
+.slide-bottom {
+	-webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.flip-diagonal-1-tr {
+	-webkit-animation: flip-diagonal-1-tr 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: flip-diagonal-1-tr 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
