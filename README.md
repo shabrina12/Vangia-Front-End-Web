@@ -10,4 +10,4 @@ Page Design & elements from https://ui8.net/ Published by Dmm Kreativ
 
 Result: https://illustrious-starlight-560949.netlify.app/
 
-![Design preview for the Insure landing page coding challenge](./src/images/web-desktop.png)
+![Design preview for the Insure landing page coding challenge](./src/images/overview-web.png)
