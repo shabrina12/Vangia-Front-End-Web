@@ -8,6 +8,6 @@ Library  used:
 Page Design & elements from https://ui8.net/ Published by Dmm Kreativ 
 (link: https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
 
-Result: https://clever-seahorse-070928.netlify.app/
+Deployed Web: https://clever-seahorse-070928.netlify.app/
 
 ![Design preview for Vangia Cosmetics landing page](./src/images/result.png)
