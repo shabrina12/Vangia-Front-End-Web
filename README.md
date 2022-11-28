@@ -10,4 +10,4 @@ Page Design & elements from https://ui8.net/ Published by Dmm Kreativ
 
 Result: https://clever-seahorse-070928.netlify.app/
 
-![Design preview for the Insure landing page coding challenge](./src/images/web-desktop.png)
+![Design preview for Vangia Cosmetics landing page](./src/images/result.png)
