@@ -42,6 +42,9 @@
     object-fit: cover;
     border-radius: 50%;
 }
+.swiper-button-prev, .swiper-button-next {
+    color: var(--color-orange);
+}
 
 @media screen and (max-width: 600px) {
     .testimonials{
