@@ -5,7 +5,7 @@ Library  used:
 1. react-icons
 2. swiper js
 
-Web Design & elements from https://ui8.net/ Published by Dmm Kreativ 
+Figma Web Design & elements from https://ui8.net/ Published by Dmm Kreativ 
 (link: https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
 
 Deployed Web: https://clever-seahorse-070928.netlify.app/
