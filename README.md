@@ -45,22 +45,36 @@ This project is a single page web front end for Vangia Cosmetics using the React
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned a simple way to add slider function in testimonial section using swiper js library
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
+Code snippets, see below:
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+<Swiper className='swiper'
+            breakpoints={{
+                // width >= 300
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 70
+                },
+                // width >= 600
+                600: {
+                    slidesPerView: 1,
+                    spaceBetween: 100
+                },
+                // width >= 1000
+                1000: {
+                    slidesPerView: 2,
+                    spaceBetween: 130
+                }
+            }}
+            modules={[Navigation, Pagination, A11y]}
+            spaceBetween={120}
+            slidesPerView={2}
+            navigation
+            pagination={{ clickable: true }}
+            onSlideChange={() => console.log('slide change')}
+            onSwiper={(swiper) => console.log(swiper)}
+        >
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
