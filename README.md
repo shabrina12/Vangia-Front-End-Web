@@ -67,8 +67,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 
 ### Continued development
-in the near future I will continue the development of this project by adding functionality to the cart, and implementing infinite scrolling in the product section
-
+The development of this project can be continued by adding functionality to the cart, and implementing infinite scrolling in the product section
 
 ### Useful resources
 - [Figma Web Design & elements i used for this project is published by Dmm Kreativ](https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
