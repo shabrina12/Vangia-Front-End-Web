@@ -88,7 +88,7 @@ The development of this project can be continued by adding functionality to the 
 ### Useful resources
 - [Figma Web Design & elements i used for this project is published by Dmm Kreativ](https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
 - [UI/UX Design Resources](https://ui8.net/) - This website provide many UI/UX design some are free. I really liked this website and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Tutorial adding slider for testimonials section](https://www.youtube.com/watch?v=iIwALoXqJ5c&t=847s) - This is an amazing youtube tutorial which helped me finally understand slider js.
 
 
 ## Author
