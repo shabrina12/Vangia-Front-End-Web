@@ -25,7 +25,7 @@ This project is a single page web front end for Vangia Cosmetics using the React
 
 ### Screenshot
 
-![Design overview for Vangia Cosmetics landing page](./src/images/result.png)
+![Design overview for Vangia Cosmetics landing page](./src/images/header-vangia.png)
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
@@ -36,7 +36,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
-- Live Site URL: [https://clever-seahorse-070928.netlify.app/]
+- [Live Site URL](https://clever-seahorse-070928.netlify.app/)
 
 ## My process
 
@@ -75,10 +75,8 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 
 ### Continued development
+in the near future I will continue the development of this project by adding functionality to the cart, and implementing infinite scrolling in the product section
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 - [Figma Web Design & elements i used for this project is published by Dmm Kreativ](https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
