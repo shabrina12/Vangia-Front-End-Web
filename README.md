@@ -21,6 +21,7 @@ This project is a single page web front end for Vangia Cosmetics using the React
 ### The challenge
 
 - Build out the project to the designs provided
+- Adding slider for the testimonial section
 
 ### Screenshot
 
