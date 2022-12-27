@@ -1,4 +1,4 @@
-# Responsive Front End Website for Vangia Cosmetics Landing Page using React JS
+# Responsive Front End Website for Vangia Cosmetics using React JS
 This project is a single page web front end for Vangia Cosmetics using the React JS framework. I created this project as an exercise to develop front end skills
 
 ## Table of contents
