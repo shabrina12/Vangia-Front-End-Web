@@ -28,7 +28,7 @@ This project is a single page web front end for Vangia Cosmetics using the React
 ![Design overview for Vangia Cosmetics landing page](./src/images/header-vangia.png)
 
 ### Links
-- [Live Site URL](https://vangia-front-end-web.vercel.app/)
+- [Live Site URL](https://vangia-front-end-web-git-main-shabrina12.vercel.app/)
 
 ### Credit
 - [Figma Web Design & UI Kit i used for this project is published by Dmm Kreativ](https://ui8.net/dmm-kreativ/products/uniquepages?status=7)
