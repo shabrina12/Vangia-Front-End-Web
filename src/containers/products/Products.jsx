@@ -1,57 +1,31 @@
-import React from 'react';
-import { product1, product2, product3, product4 } from '../../images';
+import React, {useState} from 'react';
+import ProductsData from './ProductsData';
+import ProdCard from './ProdCard';
+import CategoryButton from './CatButton';
 import './products.css';
 
+const allCategory = ['All', ...new Set(ProductsData.map(prod => prod.category))];
+
 const Products = () => {
+    const [prodMenu, setProdMenu] = useState(ProductsData);
+    const [buttons, setButtons] = useState(allCategory);
+  
+    const filter = (button) =>{
+      if(button === 'All'){
+        setProdMenu(ProductsData);
+        return;
+      }
+      const filteredData = ProductsData.filter(prod => prod.category ===  button);
+      setProdMenu(filteredData)
+    }
+
   return (
-    <div className='products'>
+    <div className='products-wrapper'>
         <h1>Few Types of Recipes</h1>
-        <ul>
-            <li>Body Care</li>
-            <li>Skin care</li>
-            <li>Hair care</li>
-            <li>Perfumes</li>
-        </ul>
+        <CategoryButton button={buttons} filter={filter} />
+
         <div className='products-container'>
-            <div className='product-card'>
-                <div className='product-card-img'>
-                    <img src={product1} alt='product' />
-                </div>
-                <h3>GARNIER</h3>
-                <p>Product applied to the skin and various body parts to make</p>
-                <h4>$52.99</h4>
-                <button type='button'>Add to Cart</button>
-            </div>
-
-            <div className='product-card'>
-                <div className='product-card-img'>
-                    <img src={product2} alt='product' />
-                </div>
-                <h3>PANTENE</h3>
-                <p>Product applied to the skin and various body parts to make </p>
-                <h4>$52.99</h4>
-                <button type='button'>Add to Cart</button>
-            </div>
-
-            <div className='product-card'>
-                <div className='product-card-img'>
-                    <img src={product3} alt='product' />
-                </div>
-                <h3>DOVE</h3>
-                <p>Product applied to the skin and various body parts to make</p>
-                <h4>$52.99</h4>
-                <button type='button'>Add to Cart</button>
-            </div>
-
-            <div className='product-card'>
-                <div className='product-card-img'>
-                    <img src={product4} alt='product' />
-                </div>
-                <h3>CLINIQUE</h3>
-                <p>Product applied to the skin and various body parts to make</p>
-                <h4>$52.99</h4>
-                <button type='button'>Add to Cart</button>
-            </div>
+            <ProdCard prodMenu={prodMenu} />
         </div>
         <button className='seeMore' type='button'>See More</button>
     </div>
