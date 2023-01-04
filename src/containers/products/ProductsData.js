@@ -80,6 +80,14 @@ const ProductsData = [
         category: 'Perfumes',
         desc: 'Product applied to the skin and various body parts to make',
         price: '142.99'
+    },
+    {
+        id: 11,
+        img: 'https://images.unsplash.com/photo-1664198874730-86cd91c757b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80',
+        name: 'BYREDO',
+        category: 'Perfumes',
+        desc: 'Product applied to the skin and various body parts to make',
+        price: '52.99'
     }
 ]
 

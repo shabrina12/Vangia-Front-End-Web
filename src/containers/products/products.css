@@ -11,22 +11,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 .products-wrapper h1 {
     font-family: var(--font-playfair);
     font-weight: 700;
     font-size: 3rem;
     line-height: 80px;
-    margin-bottom: 1.5rem;
     color: var(--color-text-dark);
 }
 .category-container {
     grid-gap: 2rem;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    margin-bottom: 4rem;
 }
-.category-container button {
+.category-container .btn {
     font-size: 1rem;
     padding: 10px 20px;
     border: none;
@@ -122,7 +121,6 @@
     }
     .category-container {
         grid-template-columns: repeat(2, 1fr);
-        margin-bottom: 2rem;
     }
     .products-container {
         grid-template-columns: repeat(1, 1fr);

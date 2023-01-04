@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { logo, cart } from '../../images';
 import {RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import './navbar.css';
@@ -12,11 +13,9 @@ const Navbar = () => {
             <img src={logo} alt='logo' />
         </div>
         <div className='nav-links'>
-            <ul>
-                <li><a href='#home'>Home</a></li>
-                <li><a href='#products'>Products</a></li>
-                <li><a href='#promotions'>Promotions</a></li>
-            </ul>
+            <Link to='/'>Home</Link>
+            <Link to='/products'>Products</Link>
+            <Link to='/'>Promotions</Link>
         </div>
         <div className='nav-cart'>
            <img src={cart} alt='cart' />
@@ -27,12 +26,12 @@ const Navbar = () => {
             {toggleMenu && (
                 <div className='navbar-smallscreen_overlay'>
                 <RiCloseLine  color='black' fontSize={27} className='close_icon' onClick={() => setToggleMenu(false)} />
-                <ul className='navbar-smallscreen_links'>
-                    <li><a href='#home'>Home</a></li>
-                    <li><a href='#products'>Products</a></li>
-                    <li><a href='#promotions'>Promotions</a></li>
-                    <li><img src={cart} alt='cart' /></li>
-                </ul>
+                <div className='navbar-smallscreen_links'>
+                    <Link to='/'>Home</Link>
+                    <Link to='/products'>Products</Link>
+                    <Link to='/'>Promotions</Link>
+                    <img src={cart} alt='cart' />
+                </div>
             </div>
             )}
         </div>

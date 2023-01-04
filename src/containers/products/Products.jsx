@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import {Link} from "react-router-dom";
 import ProductsData from './ProductsData';
 import ProdCard from './ProdCard';
 import CategoryButton from './CatButton';
@@ -27,7 +28,9 @@ const Products = () => {
         <div className='products-container'>
             <ProdCard prodMenu={prodMenu} />
         </div>
-        <button className='seeMore' type='button'>See More</button>
+        <Link to="/products">
+          <button className='seeMore' type='button'>See More</button>  
+        </Link>
     </div>
   )
 }

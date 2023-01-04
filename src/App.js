@@ -1,22 +1,20 @@
 import React from 'react';
-import {  Header, Features, OurProducts, Products, Purifying, Testimonials, Newsletter, Footer} from './containers';
-import Partners from './components/partners/Partners';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from './pages/Home';
+import Products from './pages/ProductsPage';
 
 import './App.css';
 
 const App = () => {
   return (
-    <div>
-      <Header />
-      <Partners />
-      <Features />
-      <OurProducts />
-      <Products />
-      <Purifying />
-      <Testimonials />
-      <Newsletter />
-      <Footer />
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/products' element={<Products />} />
+        </Routes>
+      </Router>
+    </>
   )
 }
 

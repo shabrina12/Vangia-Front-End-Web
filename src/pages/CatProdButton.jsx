@@ -1,12 +1,12 @@
 import React from 'react'
 
-const CategoryButton = ({button, filter}) => {
+const CatProdButton = ({button, filter}) => {
     return (
         <div className="category-container">
             {
                 button.map((cat, i)=>{
                     return (
-                        <button className='btn' key={i} onClick={()=> filter(cat)}>{cat}</button>                        
+                        <button className='cat-btn' key={i} onClick={()=> filter(cat)}>{cat}</button>                        
                     ) 
                 })
             }
@@ -14,4 +14,4 @@ const CategoryButton = ({button, filter}) => {
     )
 }
 
-export default CategoryButton
+export default CatProdButton

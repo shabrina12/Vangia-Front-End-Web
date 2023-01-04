@@ -1,8 +1,8 @@
 import React from 'react'
 
-const ProdCard = ({prodMenu}) => {
+const ProductsCard = ({products}) => {
     return (
-        prodMenu.slice(0, 8).map(prod => {
+        products.map(prod => {
             return (
                 <div className='product-card' key={prod.id}>
                     <div className='product-card-img'>
@@ -18,4 +18,4 @@ const ProdCard = ({prodMenu}) => {
     )
 }
 
-export default ProdCard
+export default ProductsCard
