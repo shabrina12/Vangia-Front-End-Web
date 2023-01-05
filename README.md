@@ -1,5 +1,5 @@
 # Responsive Front End Website for Vangia Cosmetics using React JS
-This project is a multiple page front end web for Vangia Cosmetics using the React JS framework. I created this project as an exercise to develop front end skills
+This project is a multiple page front end web for Vangia Cosmetics built with React JS framework. I created this project as an exercise to develop front end skills
 
 ## Table of contents
 
